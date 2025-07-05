@@ -2,10 +2,10 @@
 CREATE or replace DATABASE RR_CORTEX_AGENTS;
 
 -- create a secret containing the github secret
-CREATE or REPLACE SECRET git_snowflake_secret
-  TYPE = password
-  USERNAME = 'rrussell25'
-  PASSWORD = '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'  
+--CREATE or REPLACE SECRET git_snowflake_secret
+--  TYPE = password
+--  USERNAME = 'rrussell25'
+--  PASSWORD = '<github token goes here>'  
 
 CREATE OR REPLACE API INTEGRATION git_api_integration
   API_PROVIDER = git_https_api
