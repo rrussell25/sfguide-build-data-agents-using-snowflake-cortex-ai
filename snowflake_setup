@@ -1,11 +1,7 @@
 -- Create the dastabase
 CREATE or replace DATABASE RR_CORTEX_AGENTS;
 
--- create a secret containing the github secret
---CREATE or REPLACE SECRET git_snowflake_secret
---  TYPE = password
---  USERNAME = 'rrussell25'
---  PASSWORD = '<github token goes here>'  
+--TODO create a secret containing the github secret
 
 CREATE OR REPLACE API INTEGRATION git_api_integration
   API_PROVIDER = git_https_api
